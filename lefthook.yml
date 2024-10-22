@@ -1,0 +1,12 @@
+pre-commit: 
+  commands:
+    1-linter: 
+      run: npm run biome:lint
+    2-git_add:
+      run: git add .
+
+pre-push:
+  parallel: true
+  commands:
+    typecheck:
+      run: npx tsc
