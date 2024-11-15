@@ -6,7 +6,6 @@ pre-commit:
       run: git add .
 
 pre-push:
-  parallel: true
   commands:
     typecheck:
       run: npx tsc
