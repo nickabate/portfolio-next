@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import type { MarkdownMetadata } from '@/lib/markdown';
 import { formatDate } from '@/lib/utils';
+import Link from 'next/link';
 
 export default function Posts({ posts }: { posts: MarkdownMetadata[] }) {
 	return (

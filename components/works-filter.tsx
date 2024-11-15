@@ -1,7 +1,7 @@
 'use client';
 import Works from '@/components/works';
 import type { MarkdownMetadata } from '@/lib/markdown';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 interface WorksFilterProps {
 	posts: MarkdownMetadata[];

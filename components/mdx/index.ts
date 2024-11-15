@@ -1,7 +1,7 @@
-import dynamic from 'next/dynamic';
 import H1 from '@/components/mdx/h1';
 import H2 from '@/components/mdx/h2';
 import H3 from '@/components/mdx/h3';
+import dynamic from 'next/dynamic';
 import Paragraph from './paragraph';
 
 const Code = dynamic(() => import('@/components/mdx/code'));

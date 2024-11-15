@@ -1,5 +1,5 @@
-import path from 'node:path';
 import fs from 'node:fs';
+import path from 'node:path';
 import matter from 'gray-matter';
 import { cache } from 'react';
 
@@ -140,8 +140,7 @@ const formatAllContent = async ({
 	posts: MarkdownMetadata[];
 	tags: string[];
 }> => {
-	const allPosts = files
-		.map((file) => getContentMetadata(file, type));
+	const allPosts = files.map((file) => getContentMetadata(file, type));
 
 	const posts = allPosts
 		.filter((post) => !tag || post.tags?.includes(tag))

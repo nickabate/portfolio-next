@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import {
 	Sheet,
@@ -9,8 +8,9 @@ import {
 	SheetTitle,
 	SheetTrigger,
 } from '@/components/ui/sheet';
-import ToggleTheme from './toggle-theme';
 import Link from 'next/link';
+import { useState } from 'react';
+import ToggleTheme from './toggle-theme';
 
 export default function NavBar() {
 	const [open, setOpen] = useState(false);

@@ -1,6 +1,6 @@
+import markdown from '@/lib/markdown';
 import Link from 'next/link';
 import Works from './works';
-import markdown from '@/lib/markdown';
 
 export default async function RecentWorks() {
 	const { posts } = await markdown.getAllProjects({

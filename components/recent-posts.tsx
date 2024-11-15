@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import markdown from '@/lib/markdown';
 import Posts from '@/components/posts';
+import markdown from '@/lib/markdown';
+import Link from 'next/link';
 
 export default async function RecentPosts() {
 	const { posts } = await markdown.getAllPosts({ limit: 4 });
