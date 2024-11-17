@@ -60,7 +60,7 @@ export default async function Blog(props: {
 					</aside>
 					<section className="sm:col-span-3">
 						<div className="flex flex-col gap-3 mb-8">
-							<h1 className="font-bold mt-6 sm:m-0">Blog Posts</h1>
+							<h1 className="font-bold mt-6 sm:m-0 border-b">Blog Posts</h1>
 							<div className="text-zinc-700 dark:text-zinc-400">
 								Here's my posts filtered by #{tagName}.
 							</div>

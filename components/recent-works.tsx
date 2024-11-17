@@ -10,10 +10,10 @@ export default async function RecentWorks() {
 	return (
 		<section className="">
 			<div className="px-8 sm:px-0 my-10">
-				<h2 className="font-bold mb-2">Recent Works</h2>
+				<h2 className="font-bold mb-2 border-b">Recent Works</h2>
 				<div className="text-zinc-700 dark:text-zinc-400">
-					View projects I've built which tools that interest me and cultivated
-					growth.
+					View projects I've built which tools that interest me and enabled me
+					to solve new challenges.
 				</div>
 			</div>
 			<Works works={posts} />

@@ -35,7 +35,7 @@ export default async function Blog() {
 					</aside>
 					<section className="sm:col-span-3">
 						<div className="flex flex-col gap-3 mb-10 px-8 sm:px-0">
-							<h1 className="font-bold mt-4 sm:m-0">Blog Posts</h1>
+							<h1 className="font-bold mt-4 sm:m-0 border-b">Blog Posts</h1>
 							<div className="text-zinc-700 dark:text-zinc-400">
 								View all my posts or filter for what you find interesting.
 							</div>

@@ -15,9 +15,9 @@ export default function Hero() {
 					Software engineer, tech enthusiast, lifelong learner.
 				</h1>
 				<p className="mt-6 text-zinc-800 dark:text-zinc-300 lg:text-xl">
-					I'm Nick, a software engineer based in Toronto. Currently, I build
-					scalable high performance web solutions. I love all things learning
-					and the pursuit of growth as a developer.
+					I'm Nick, a software engineer based outside of Toronto. Currently, I
+					build scalable high performance web solutions. I love all things
+					learning and the pursuit of growth as a developer.
 				</p>
 				<Socials />
 			</div>

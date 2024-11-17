@@ -19,7 +19,7 @@ export default function ArticleMetadata({ metadata }: ArticleMetadataProps) {
 
 	return (
 		<div className="border-b mb-6">
-			<div className="flex flex-col sm:flex-row gap-4">
+			<div className="flex flex-col sm:flex-row gap-4 sm:justify-between">
 				<h1 className="font-bold lg:text-5xl">{title}</h1>
 
 				{(deployedLink || githubURL) && (
@@ -29,7 +29,7 @@ export default function ArticleMetadata({ metadata }: ArticleMetadataProps) {
 								target="_blank"
 								rel="noopener noreferrer"
 								href={githubURL}
-								className="bg-foreground/80 text-background rounded-md p-1 hover:bg-foreground font-bold w-24 sm:flex-grow flex justify-center items-center gap-2"
+								className="bg-foreground/80 text-background rounded-md p-1 hover:bg-foreground font-bold w-24 sm:flex-grow flex justify-center items-center gap-2 grow-0 h-fit"
 							>
 								GitHub
 								<img
@@ -44,7 +44,7 @@ export default function ArticleMetadata({ metadata }: ArticleMetadataProps) {
 								target="_blank"
 								rel="noopener noreferrer"
 								href={deployedLink}
-								className="bg-foreground/80 text-background rounded-md p-1 hover:bg-foreground font-bold w-24 sm:flex-grow flex justify-center items-center gap-2"
+								className="bg-foreground/80 text-background rounded-md p-1 hover:bg-foreground font-bold w-24 sm:flex-grow flex justify-center items-center gap-2 grow-0 h-fit"
 							>
 								Live
 								<img
@@ -58,11 +58,11 @@ export default function ArticleMetadata({ metadata }: ArticleMetadataProps) {
 				)}
 			</div>
 			{image && (
-				<div className="mt-4">
+				<div className="mt-4 shadow-lg dark:shadow-zinc-700 rounded-lg overflow-hidden">
 					<img
 						src={image}
 						alt="article"
-						className="w-full h-auto max-h-[200px] object-cover rounded-lg"
+						className="w-full h-auto max-h-[200px] object-cover object-top grayscale"
 					/>
 				</div>
 			)}
@@ -72,9 +72,9 @@ export default function ArticleMetadata({ metadata }: ArticleMetadataProps) {
 			{publishedAt && (
 				<div className="text-zinc-700 dark:text-zinc-400">{`${author} / ${formatDate(publishedAt)}`}</div>
 			)}
-			<div className="flex flex-wrap text-zinc-700 mt-2 dark:text-zinc-400 mb-6">
+			<div className="flex flex-wrap text-zinc-500 mt-2 dark:text-zinc-600 mb-6">
 				{tags?.map((tag) => (
-					<span className="mr-2" key={tag}>
+					<span className="mr-2 text-sm" key={tag}>
 						#{tag}
 					</span>
 				))}

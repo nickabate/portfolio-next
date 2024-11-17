@@ -1,0 +1,36 @@
+---
+title: 'Face Finder - AI Face Detection'
+summary: Face Finder utilizes machine learning to detect human presences in online images.
+image: /images/projects/facefinder.png
+author: 'Nick Abate'
+publishedAt: '2023-06-30T12:00:00-0000'
+tags:
+  - react
+  - node
+  - express
+  - postgresql
+  - ai
+githubURL: https://github.com/nickabate/facefinder-client
+---
+
+## What Is It
+
+Face Finder utilizes a machine learning API to detect faces in online images, connecting to a user database with records in a PostgreSQL database through Node and Express. This project is optimized on desktop or tablet viewports.
+
+## Why Did I Build This
+
+This project was built as a part of pursuing my Complete Web Developer online certification with the [Zero to Mastery Academy](https://zerotomastery.io/). I wanted to challenge myself in building a deployed fullstack application from scratch, while utilizing third party resources and services.
+
+## What Tools Did I Use
+
+Some of the tech used in this app includes:
+
+- [React](https://reactjs.org/) on the frontend user interface. 
+- A backend utilizing [Node](https://nodejs.org/en), [Express](https://expressjs.com/), [Knex](https://knexjs.org/), [PostgreSQL](https://www.postgresql.org/). 
+- A machine learning [Clarifai API](https://www.clarifai.com/) to detect human faces.
+
+With this project, machine learning results are analyzed in realtimne and presented to the user. The functionality of the API usage interacts with the cloud PostgreSQL database through a database ORM software to store a user's interactions with the application. There is also users stored in the database with create account and login functionality on the frontend.
+
+## Lessons Learned 
+
+Ensuring efficient database schema design while normalizing data is essential to an efficient project including CRUD operations. Best-practices were learned and followed with regards to utilizing a cloud database hosted on a cloud server with a connected frontend client facing application. 

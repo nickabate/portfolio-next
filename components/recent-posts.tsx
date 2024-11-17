@@ -8,7 +8,7 @@ export default async function RecentPosts() {
 	return (
 		<section>
 			<div className="px-8 sm:px-0 mt-10 mb-8">
-				<h2 className="font-bold mb-2">Recent Blogging</h2>
+				<h2 className="font-bold mb-2 border-b">Recent Blogging</h2>
 				<div className="text-zinc-700 dark:text-zinc-400">
 					See blog posts where I write about anything and everything tech, life
 					and more.

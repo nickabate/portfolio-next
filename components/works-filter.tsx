@@ -64,7 +64,7 @@ export default function WorksFilter({ posts, tags }: WorksFilterProps) {
 				</div>
 			</div>
 			<div className="px-8 sm:px-0 flex flex-col gap-3 mb-10">
-				<h1 className="font-bold">Recent Works</h1>
+				<h1 className="font-bold border-b">Recent Works</h1>
 				<div className="text-zinc-800 dark:text-zinc-300">
 					Check out a project below to learn more about the tools I used and
 					lessons learned.

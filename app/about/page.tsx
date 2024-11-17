@@ -12,14 +12,18 @@ export default function About() {
 		<section className="pt-28">
 			<div className="container max-w-3xl mt-4">
 				<h1 className="font-bold lg:text-5xl">Hey there, I'm Nick.</h1>
-				<h2 className="font-semibold my-4 max-w-md lg:text-4xl lg:max-w-xl">
+				<h2 className="font-semibold my-4 max-w-[470px] lg:text-4xl lg:max-w-xl">
 					I build blazingly fast experiences for the web.
 				</h2>
+				<p className="mb-4 text-zinc-700 dark:text-zinc-300 lg:text-lg">
+					Pursuing software engineering enables me to come up with innovative
+					solutions to everyday problems experienced by everyday people.
+				</p>
 				<Socials />
 				<div className="max-w-2xl">
 					<section>
-						<h3 className="font-bold mt-6 lg:text-2xl">
-							Career Shift: From Accounting to Engineering
+						<h3 className="font-bold mt-6 lg:text-2xl border-b">
+							From Big Four to Big O Notation
 						</h3>
 						<p className="mt-4 text-zinc-700 dark:text-zinc-300 lg:text-lg">
 							I transitioned from accounting to software engineering, driven by
@@ -39,15 +43,14 @@ export default function About() {
 						</p>
 					</section>
 					<section>
-						<h3 className="font-bold mt-6 lg:text-2xl">
+						<h3 className="font-bold mt-6 lg:text-2xl border-b">
 							Passion for Learning and Building
 						</h3>
 						<p className="mt-4 text-zinc-700 dark:text-zinc-300 lg:text-lg">
-							As a software engineer, I work with tools like Node.js,
-							TypeScript, and PostgreSQL to build high-performance, scalable
-							systems. I’m focused on optimizing APIs and designing solutions
-							that meet business needs, contributing to growth through
-							technology.
+							I work with tools like Node.js, Express, TypeScript, and
+							PostgreSQL to build high-performance, scalable systems. I’m
+							focused on optimizing APIs and designing solutions that meet
+							business needs, contributing to growth through technology.
 						</p>
 						<p className="mt-4 text-zinc-700 dark:text-zinc-300 lg:text-lg">
 							I’m committed to continuous learning, whether through formal

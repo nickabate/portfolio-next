@@ -162,7 +162,7 @@ const formatAllContent = async ({
 		}
 	}
 
-	const tags = Array.from(consolidatedTags);
+	const tags = Array.from(consolidatedTags).sort();
 
 	if (limit) {
 		return { posts: posts.slice(0, limit), tags };
