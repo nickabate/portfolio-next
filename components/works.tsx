@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Works({ works }: { works: MarkdownMetadata[] }) {
 	return (
-		<section className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+		<section className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-6">
 			{works.map((work) => (
 				<div className="group" key={work.slug}>
 					<Link href={`/works/${work.slug}`}>

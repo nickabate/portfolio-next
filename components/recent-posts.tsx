@@ -16,7 +16,7 @@ export default async function RecentPosts() {
 			</div>
 			<Posts posts={posts} />
 			<div className="px-8 sm:px-0 my-8">
-				<Link href="/works">
+				<Link href="/blog">
 					<span className="hover:opacity-75 font-semibold">
 						See more posts...
 					</span>
