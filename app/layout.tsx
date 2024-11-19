@@ -5,6 +5,7 @@ import NavBar from '@/components/nav';
 import Providers from '@/components/providers';
 import { HOMEPAGE_METADATA } from '@/lib/metadata';
 import { cn } from '@/lib/utils';
+import { Analytics } from '@vercel/analytics/next';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -29,7 +30,10 @@ export default function RootLayout({
 			>
 				<Providers>
 					<NavBar />
-					<main className="grow">{children}</main>
+					<main className="grow">
+						{children}
+						<Analytics />
+					</main>
 					<Footer />
 				</Providers>
 			</body>
