@@ -1,20 +1,27 @@
 # Portfolio-Next
 
-This is a brief regarding [my personal portfolio blog](https://nickabate.dev).  
+This portfolio utilizes the power of Next.js and static site generation, harnessing the power of MDX to convert Markdown to JSX for a seamless writing experience.
 
 ![Demo screenshot](./public/images/projects/portfolio.png)
 
-Building a portfolio from scratch enabled me to practice creating a responsive mobile and desktop friendly design, prioritizing typography with a minimalist style.
+## Why Did I Build This
 
-Blog articles and works summaries are written in MDX, which seamlessly lets authors include JSX in their Markdown documents.
+In an effort to gain proficiency with current frontend development tools and industry standards, I challenged myself to rebuild my online portfolio from scratch with new tech to build a more prominent online presence. Leveraging slick typography and minimalist styling, my aim is to let the writing and content speak for itself.
 
-## Built with
+On my journey as a software engineer, creating a space to write gives me a creative outlet to express my current learning, thoughts and opinions on the world of technology and what stands out to me.
 
-- [React](https://reactjs.org/) - JS library for web user interfaces
-- [Next.js](https://nextjs.org/) - React based web development framework
-- [Tailwind CSS](https://tailwindcss.com/) - Utility first CSS framework
-- [TypeScript](https://www.typescriptlang.org/) - Strongly typed programming language that builds on JavaScript
-- [MDX](https://mdxjs.com/) - Seamlessly integrate JSX into Markdown content
+## What Tools Did I Use
+
+Some of the tech used in this portfolio blog includes:
+
+- [Next.js](https://nextjs.org/) to create a speedy user experience utilizing static site generation.
+- [Tailwind CSS](https://tailwindcss.com/) for utility first styling throughout.
+- [TypeScript](https://www.typescriptlang.org/) for strongly typing, better tooling and an improved developer experience.
+- [MDX](https://mdxjs.com/) to seamlessly integrate JSX into Markdown content.
+
+## Lessons Learned 
+
+To a nondesigner like myself, there is much more than meets the eye to create a captivating visual experience which heightens curiosity in the viewer, but also guides them throughout their journey on a piece of content. Building an online presence with the power of Next.js has also opened my eyes to different rendering methods and ways to optimize experiences on the web. 
 
 ## Author
 
@@ -22,4 +29,3 @@ Thanks for checking out my work! Feel free to reach out to me with any questions
 
 - Portfolio - [Live Site](https://nickabate.dev/)
 - LinkedIn - [Nick Abate](https://www.linkedin.com/in/nick-abate/)
-- Twitter - [@thatdevnick](https://twitter.com/thatdevnick)
